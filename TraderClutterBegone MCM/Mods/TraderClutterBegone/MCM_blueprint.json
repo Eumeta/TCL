@@ -1,0 +1,84 @@
+{
+    "SchemaVersion": 1,
+    "Tabs": [
+        {
+            "TabName": "General Settings",
+            "TabId": "feature1",
+            "Sections": [
+                {
+                    "SectionId": "General",
+                    "SectionName": "The whole thing",
+                    "Settings": [
+                        {
+                            "Id": "Names",
+                            "Name": "Add to deletion list",
+                            "Type": "list",
+                            "Default": [
+                                "Adamantine Slag", "Agate", "Aloe Oil", "Amethyst", "Anomalous Coral", "Archibald Ravenshade", "Aspen Lamentation",
+                            "Ball", "Ballista Arrow", "Barbed Device", "Barber kit", "Barber Shears", "Barbed Device", "Bear Claw", "Bed Linen",
+                            "Bedroll", "Bellows", "Black Diamond", "Blacksmith's Tongs", "Blank Canvas", "Blood-Filled Bowl", "Bloodstone", "Bone",
+                            "Bottled Blooms", "Bottled Eye", "Bottled Solvent", "Bottled Tentacles", "Bottle", "Bowl", "Bowls", "Broken Cane",
+                            "Broken Cogwheel", "Broken Lute", "Broken Parasite Jar", "Bronze Chalice", "Bronze Goblet", "Bronze Ingot", "Bronze Keg",
+                            "Broom", "Bucket", "Bucket of Water", "Bulbous Fungus", "Bundele of Incense", "Butterfly on Skull", "Cabin in Motion",
+                            "Cauldron", "Candle", "Canteen", "Charcoal", "Clamshell", "Clerebold Rillyn", "Coal Bucket", "Cogwheel", "Conch Shell",
+                            "Condemnation", "Conical Flask", "Cooking Pot", "Copper Plate", "Cresent Moon Earing", "Crowbar", "Crystal Ball",
+                            "Cup", "Cup of Oil", "Cutting Board", "Diamond", "Drinking Horn", "Earthen Bottle", "Elegant Blush-Filled Portrait",
+                            "Eldritch Rune", "Eldritch Tablet", "Elven Eminence", "Empty Bloodbank Jar", "Empty Potion Bottle", "Envoys at Table",
+                            "Ernest Tillerturn", "Fake Portrait of a Noble Before His Death", "Fish Skeleton", "Fishing Rod", "Forgotten Temple",
+                            "Fork", "Full Body Depiction of a Tiefling", "Gilbert Irlentree", "Glass Chalice", "Glass Cup", "Glass Goblet", "Glass Retort",
+                            "Goblet", "Goblet With Dead Tadpoles", "Gold Chalice", "Gold Ingot", "Grand Infernal Painting", "Grass House",
+                            "Graveyard Coiler", "Hammer", "Handsaw", "Harrowing Painting", "Heavy Stone", "Hellish Landscape", "Hollow Shell",
+                            "Horn", "Horn Shell", "Hourglass", "Illithid Manuscript", "Illithid Record", "Incense", "Incense Bowl", "Incense Stick",
+                            "Ink Pot", "Ink Pot and Quill", "Intestines", "Iridescent Shell", "Iron Bowl", "Iron Pan", "Jacinth", "Jade",
+                            "Jar of Coagulated Blood", "Jug", "Juicy Apple", "Keepsake Gem", "Knife", "Ladle", "Landscape", "Large Bottle",
+                            "Lid", "Lump Hammer", "Malachite", "Makeshift Ladle", "Maid with Duster", "Metal Fork", "Metal Pipe", "Milk Can",
+                            "Mithral Ingot", "Mortar and Pestle", "Mucoid Shell", "Mug", "Music Box", "Nobleman Regards Us", "Oil Lamp",
+                            "Onyx", "Oskar Fevras", "Oval Framed Elven Eminence", "Pan", "Painting of Gortash", "Painting of Lady Jannath",
+                            "Painting of a Smiling Maiden", "Painting of an Elegant Noble", "Peridot", "Pile of Stained Towels", "Poet Unveils Review",
+                            "Poisoned Apple", "Portrait of Fane", "Portrait of Ifan ben-Mezd", "Portrait of Lohse", "Portrait of Marcus Miles",
+                            "Portrait of Sebille Kaleran", "Portrait of a Bored Girl", "Portrait of a Fur-Shouldered Noble", "Portrait of a Noble Before His Death",
+                            "Portrait of a Snowy-Brownbeard", "Portrait of a Tiefling", "Portrait of a Trademaster", "Portrait of a Woman",
+                            "Portrait of an Elven Poet", "Potion Bottle", "Pot Lid", "Purple Fluorite Shard", "Quill", "Rags", "Ribcage", "River Goes",
+                            "Rope", "Rothé Femur", "Rotten Banana", "Rotten Beregost Blue Wedge", "Rotten Beregost Blue Wheel", "Rotten Carrot",
+                            "Rotten Chicken Eggs", "Rotten Durinbold Cheese Wedge", "Rotten Fish", "Rotten Lemon", "Rotten Mushroom", "Rotten Tomato",
+                            "Rotten Waterdhavian Cheese Wedge", "Rotten Waterdhavian Cheese Wheel", "Rotting Basket", "Round Flask", "Ruby",
+                            "Ruffled Noblewoman", "Rune Slate", "Saphire", "Serving Spoon", "Severed Arm", "Severed Eye", "Severed Foot", "Severed Hand",
+                            "Severed Head", "Severed Leg", "Severed Pelvis", "Severed Torso", "Shears", "Silver Cake Stand", "Silver Chalice",
+                            "Silver Fork", "Silver Glass", "Silver Goblet", "Silver Ingot", "Silver Knife", "Silver Plate", "Silver Spoon",
+                            "Silver Tray", "Sinister Painting", "Smoking Pipe", "Sodalite Shell", "Sponge", "Sponge Tray", "Spoon", "Spatula",
+                            "Stained Towel", "Starfish", "Staunch Tiefling Before Work", "Stelmane's Portrait", "Struck Match", "Stump under Autumn Tree",
+                            "Suspicious Poison", "Surgery kit", "Tableau of Ibex and Rose", "The Lay of Larethian", "Tigermist", "Tin Cup", "Tin Plate",
+                            "Toad Teapot", "Tongs", "Towel", "Valley with Brook", "Wardrum", "Water", "Wheat", "Wine Goblet", "Wooden Bowl", "Young Boy In Plate Armour"
+                            ],
+                            "Description": "Enter names here",
+                            "Handles":{"DescriptionHandle": "h559ba794gf73eg46d9ga26bg3166d9aed103",
+                            "NameHandle": "h5c598d45g91d1g46c2gbfa2ga8efea8e635e"}
+                        },
+			            {
+                            "Id": "Include_sold",
+                            "Name": "Include sold items",
+                            "Type": "checkbox",
+                            "Default": false,
+                            "Description": "Tick to allow items you sold to be deleted as well, even if \n they are not clutter nor common",
+                            "Handles":{"DescriptionHandle": "hece24cabge022g4708g8fb9g25d37c340093",
+                            "NameHandle": "h3cbf7353g87cag422ega82eg16a4551c8a24"}
+                        },
+			            {
+                            "Id": "Restriction",
+                            "Name": "Restrict deleting items to common rarity",
+                            "Type": "checkbox",
+                            "Default": true,
+                            "Handles":{"NameHandle": "h95a4cad9gf154g4f20g8242gce2e19f8fe48"}
+                        }
+                    ],
+                    "Handles": {
+                        "NameHandle": "ha07f54e3gac88g4e97gb98egc7149f9ebcc5"
+                    }
+                }
+            ],
+            "Handles": {
+                "NameHandle": "haf428ac6g6fd9g42e3g8961g978f519b5356"
+            }
+        }
+    ]
+}
